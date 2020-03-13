@@ -3,7 +3,7 @@ class Graph():
         self.nodes = listOfNodes
         self.edges = listOfEdges
     
-    ## Knoten und Kanten hinzufügen
+    '''Knoten und Kanten hinzufügen'''
     def addNode(self,node):
         self.nodes.append(node)
     def addEdge(self, edge):
@@ -38,3 +38,5 @@ class Graph():
                     stack.append(node)
         
         return visited
+    
+    ## TODO Tiefensuche
