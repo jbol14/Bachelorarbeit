@@ -33,4 +33,5 @@ graph = Graph(nodes,edges)
 
 print(graph.buildAdjacencyList())
 
-print(graph.bfs(s,t))
+#print(graph.bfs(c,e))
+print(graph.dfs(a,b))
